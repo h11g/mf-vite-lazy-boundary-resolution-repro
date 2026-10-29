@@ -1,0 +1,16 @@
+{
+  "name": "mf-vite-lazy-boundary-resolution-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "build:version-first": "SHARE_STRATEGY=version-first vite build --outDir dist-version-first",
+    "preview": "vite preview --port 4173 --strictPort",
+    "preview:version-first": "vite preview --port 4174 --strictPort --outDir dist-version-first"
+  },
+  "devDependencies": {
+    "@module-federation/vite": "1.23.6",
+    "typescript": "5.9.3",
+    "vite": "8.2.0"
+  }
+}
