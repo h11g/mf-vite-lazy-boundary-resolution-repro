@@ -26,3 +26,5 @@ version-first page, and loaded-first with `@module-federation/vite` 1.23.5:
 stubbed: resolved (label=widget)
 unreachable: resolved (title=card)
 ```
+
+Fix: https://github.com/module-federation/vite/pull/1519
